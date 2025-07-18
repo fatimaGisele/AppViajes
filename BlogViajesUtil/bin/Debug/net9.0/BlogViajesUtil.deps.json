@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BlogViajesUtil/1.0.0": {
+        "runtime": {
+          "BlogViajesUtil.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlogViajesUtil/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

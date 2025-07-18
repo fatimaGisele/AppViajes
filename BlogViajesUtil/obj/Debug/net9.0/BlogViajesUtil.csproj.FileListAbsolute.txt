@@ -1,0 +1,11 @@
+C:\Users\Usuario\source\repos\BlogViajesUtil\bin\Debug\net9.0\BlogViajesUtil.deps.json
+C:\Users\Usuario\source\repos\BlogViajesUtil\bin\Debug\net9.0\BlogViajesUtil.dll
+C:\Users\Usuario\source\repos\BlogViajesUtil\bin\Debug\net9.0\BlogViajesUtil.pdb
+C:\Users\Usuario\source\repos\BlogViajesUtil\obj\Debug\net9.0\BlogViajesUtil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\BlogViajesUtil\obj\Debug\net9.0\BlogViajesUtil.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\BlogViajesUtil\obj\Debug\net9.0\BlogViajesUtil.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\BlogViajesUtil\obj\Debug\net9.0\BlogViajesUtil.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\BlogViajesUtil\obj\Debug\net9.0\BlogViajesUtil.dll
+C:\Users\Usuario\source\repos\BlogViajesUtil\obj\Debug\net9.0\refint\BlogViajesUtil.dll
+C:\Users\Usuario\source\repos\BlogViajesUtil\obj\Debug\net9.0\BlogViajesUtil.pdb
+C:\Users\Usuario\source\repos\BlogViajesUtil\obj\Debug\net9.0\ref\BlogViajesUtil.dll
