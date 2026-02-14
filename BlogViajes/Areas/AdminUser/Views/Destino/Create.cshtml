@@ -1,0 +1,43 @@
+﻿@model BlogViajesModelo.Destino
+@{
+    ViewData["Title"] = "Agregar un Destino";
+}
+
+<br />
+<br />
+<h3 class="text-center"> Agregar un nuevo destino</h3>
+
+<form method="POST" asp-action="Create">
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="NombreDestino">
+
+                    </label>
+                </div>
+                <div>
+                    <input asp-for="NombreDestino" class="form-control" placeholder="Ingrese un nuevo Destino" />
+                    <span asp-validation-for="NombreDestino" class="text-danger"></span>
+                </div>
+
+                <div class="col-4">
+                    <label asp-for="Precio">
+
+                    </label>
+                </div>
+                <div>
+                    <input asp-for="Precio" class="form-control" placeholder="Ingrese un nuevo Precio" />
+                    <span asp-validation-for="Precio" class="text-danger"></span>
+                </div>
+            </div>
+            <br/>
+            <div class="form-group row">
+                <div class="col-8">
+                    <partial name="_VistaVolver" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

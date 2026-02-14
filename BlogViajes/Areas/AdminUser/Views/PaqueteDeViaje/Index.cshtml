@@ -1,0 +1,52 @@
+﻿
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-8">
+            <h2 class="text-primary">Listado de paquetes de viaje disponibles </h2>
+        </div>
+        <div class="col-4 text-right">
+            <a asp-action="Create" class="btn btn-secondary">Agregar un nuevo Paquete de Viaje</a>
+        </div>
+    </div>
+
+    <table id="tblPaqueteDeViaje" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    Tipo
+                </th>
+                <th>
+                    Descripcion
+                </th>
+                <th>
+                    Disponibilidad
+                </th>
+                <th>
+                    Destinos
+                </th>
+                <th>
+                    Cantidad de dias
+                 </th>
+                <th>
+                    Precio
+                </th>
+                <th>
+                    Acciones
+                </th>
+            </tr>
+
+        </thead>
+    </table>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/paqueteDeViaje.js"></script>
+}
+        

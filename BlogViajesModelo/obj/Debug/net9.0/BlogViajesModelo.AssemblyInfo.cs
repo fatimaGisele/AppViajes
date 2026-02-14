@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlogViajesModelo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f5d1df121e06da5880520f70859df75251f0b855")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlogViajesModelo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlogViajesModelo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

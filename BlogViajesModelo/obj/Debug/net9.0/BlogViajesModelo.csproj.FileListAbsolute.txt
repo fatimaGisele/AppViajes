@@ -10,3 +10,16 @@ C:\Users\Usuario\source\repos\BlogViajesModelo\obj\Debug\net9.0\refint\BlogViaje
 C:\Users\Usuario\source\repos\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.pdb
 C:\Users\Usuario\source\repos\BlogViajesModelo\obj\Debug\net9.0\ref\BlogViajesModelo.dll
 C:\Users\Usuario\source\repos\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\bin\Debug\net9.0\BlogViajesModelo.deps.json
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\bin\Debug\net9.0\BlogViajesModelo.dll
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\bin\Debug\net9.0\BlogViajesModelo.pdb
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.sourcelink.json
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.dll
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\refint\BlogViajesModelo.dll
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\BlogViajesModelo.pdb
+C:\Users\Usuario\source\repos\Blog\BlogViajesModelo\obj\Debug\net9.0\ref\BlogViajesModelo.dll

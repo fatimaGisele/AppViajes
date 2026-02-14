@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Opciones de pago";
+}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-8">
+            <h2 class="text-primary">Listado de opciones de pago disponibles </h2>
+        </div>
+        @* <div class="col-4 text-right">
+            <a asp-action="GetMedios" class="btn btn-secondary">Ver medios de pago aceptados</a>
+        </div> *@
+        <div class="col-4 text-right">
+            <a asp-action="Create" class="btn btn-secondary">Agregar una nueva forma de pago</a>
+        </div>
+    </div>
+    <table id="tblOpcionesDePagos" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>
+                    Id
+                </th>
+                <th>
+                    Tipo
+                </th>
+                <th>
+                    Descripcion
+                </th>
+                <th>
+                    Acciones
+                </th>
+            </tr>
+
+        </thead>
+    </table>
+    </div>
+
+
+    @section Scripts {
+        <script src="~/js/opcionesDePago.js"></script>
+    }

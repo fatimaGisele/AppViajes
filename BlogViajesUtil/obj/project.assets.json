@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\BlogViajesUtil.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\BlogViajesUtil.csproj",
       "projectName": "BlogViajesUtil",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\BlogViajesUtil.csproj",
+      "projectPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\BlogViajesUtil.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

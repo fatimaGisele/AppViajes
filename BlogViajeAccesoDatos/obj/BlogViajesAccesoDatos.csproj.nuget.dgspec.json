@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\BlogViajeAccesoDatos\\BlogViajesAccesoDatos.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajeAccesoDatos\\BlogViajesAccesoDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\BlogViajeAccesoDatos\\BlogViajesAccesoDatos.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajeAccesoDatos\\BlogViajesAccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\BlogViajeAccesoDatos\\BlogViajesAccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajeAccesoDatos\\BlogViajesAccesoDatos.csproj",
         "projectName": "BlogViajesAccesoDatos",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajeAccesoDatos\\BlogViajesAccesoDatos.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajeAccesoDatos\\BlogViajesAccesoDatos.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajeAccesoDatos\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajeAccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj"
+              "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj"
               },
-              "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\BlogViajesUtil.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\BlogViajesUtil.csproj"
+              "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\BlogViajesUtil.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\BlogViajesUtil.csproj"
               }
             }
           }
@@ -96,14 +96,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj",
         "projectName": "BlogViajesModelo",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -171,14 +171,14 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\BlogViajesUtil.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\BlogViajesUtil.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\BlogViajesUtil.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\BlogViajesUtil.csproj",
         "projectName": "BlogViajesUtil",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\BlogViajesUtil.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\BlogViajesUtil.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesUtil\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesUtil\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

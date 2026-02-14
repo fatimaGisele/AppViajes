@@ -1,0 +1,67 @@
+﻿## ⚙️ Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## 🧹 Archivos de compilación
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+*.log
+
+## ⚙️ Paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.dll
+
+## ⚠️ Configuración temporal
+*.dbmdl
+*.bak
+*.cache
+*.tmp
+*.swp
+*.orig
+
+## 🧪 Archivos de pruebas
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## 📦 Publicación
+publish/
+*.Publish.xml
+
+## 🔐 Secretos de usuario
+secrets.json
+
+## 🌐 Archivos del navegador
+*.pidb
+*.sdf
+*.sln.ide
+*.sln.iml
+
+## ✈️ Rider/JetBrains
+.idea/
+*.iml
+
+## 📸 Otros
+_ReSharper*/
+*.DotSettings.user
+.DS_Store
+Thumbs.db
+
+## 🧪 SQLite (si usás para pruebas locales)
+*.db
+*.sqlite
+
+## 💾 Entity Framework Migrations (opcional)
+Migrations/
+
+## 🧠 Archivos personalizados locales
+*.local.json

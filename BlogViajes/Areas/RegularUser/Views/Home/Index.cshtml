@@ -1,0 +1,36 @@
+﻿@model BlogViajesModelo.ViewModels.HomeView
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row mt-1">
+    <div class="col-sm-12">
+        <h1 class="text-center text-white bg-secondary py-1">Paquetes destacados</h1>
+    </div>
+</div>
+
+@if (Model.paquetes.Count()>0)
+{
+    <hr/>
+    <div class="row">
+        @foreach (var paquete in Model.paquetes.OrderBy(i=>i.Id))
+        {
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="text-center">@paquete.Nombre</h4>
+                        <p class="text-center">@paquete.Disponibilidad</p>
+                        <h3 class="text-center">@paquete.Precio</h3>
+                        <a asp-action="Detail" class="btn btn-primary text-white text-center" style="border-radius: 10px;" asp-route-id="@paquete.Id">
+                            Mas información!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No hay paquetes disponibles</p>
+}

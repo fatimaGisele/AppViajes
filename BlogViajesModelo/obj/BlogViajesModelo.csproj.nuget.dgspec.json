@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj": {}
+    "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj": {
+    "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj",
         "projectName": "BlogViajesModelo",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\BlogViajesModelo.csproj",
+        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\BlogViajesModelo.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\BlogViajesModelo\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\source\\repos\\Blog\\BlogViajesModelo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

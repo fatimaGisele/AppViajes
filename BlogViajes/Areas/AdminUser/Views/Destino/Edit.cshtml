@@ -1,0 +1,45 @@
+﻿@model BlogViajesModelo.Destino
+@{
+    ViewData["Title"] = "Editar un Destino";
+}
+
+<br />
+<br />
+<h3 class="text-center"> Editar un destino</h3>
+
+<form method="POST" asp-action="Edit">
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <input asp-for="Id" type="hidden" />
+                <div class="col-4">
+                    <label asp-for="NombreDestino">
+
+                    </label>
+                </div>
+                <div>
+                    <input asp-for="NombreDestino" class="form-control" placeholder="Ingrese Destino" />
+                    <span asp-validation-for="NombreDestino" class="text-danger"></span>
+                </div>
+
+                <div class="col-4">
+                    <label asp-for="Precio">
+
+                    </label>
+                </div>
+                <div>
+                    <input asp-for="Precio" class="form-control" placeholder="Ingrese un nuevo Precio" />
+                    <span asp-validation-for="Precio" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+
+            <div class="form-group row">
+                <div class="col-8">
+                    <partial name="_VistaEditar" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

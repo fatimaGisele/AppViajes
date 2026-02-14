@@ -1,0 +1,47 @@
+﻿
+@model BlogViajesModelo.PaqueteDeViaje;
+@{
+    ViewData["Text"] = "Detalle";   
+}
+
+<br/>
+<br/>
+<div class="container">
+    <div class="card">
+        <div class="card-header bg-success text-white row">
+            <div class="col-12">
+                <h3 class="text-center">@Model.Nombre</h3>
+            </div>
+        </div>
+        <div class="card-body border-success" style="border: 5px">
+            <p class="text-center">@Html.Raw(Model.Detalle)</p>
+            <p class="text-center"><strong>Cantidad dias en total: </strong>@Html.Raw(Model.CantidadDias)</p>
+            <h4 class="text-center">Destinos incluidos:</h4>
+            @foreach (var d in Model.Destino)
+            {
+                <p class="text-center">Destino:@d.IdDestinoNavigation.NombreDestino</p>
+            }
+            <p class="text-center"><strong>Lugares disponibles:</strong> @Html.Raw(Model.Disponibilidad)</p>
+            <h2 class="text-center">$@Html.Raw(Model.Precio)</h2>
+            
+            <form method="post" asp-controller="Carrito" asp-action="Create" asp-area="RegularUser">
+                @Html.AntiForgeryToken()
+
+                <input type="hidden" name="PaqueteId" value="@Model.Id" />
+
+                <div class="form-group">
+                    <label for="Cantidad">Cantidad:</label>
+                    <input type="number" name="Cantidad" id="Cantidad" value="1" min="1" class="form-control" />
+                </div>
+
+                <button type="submit" class="btn btn-success form-control">Agregar al carrito</button>
+            </form>
+
+            <br/>
+
+            
+                <a asp-action="Index" asp-controller="Home" asp-area="RegularUser" class="btn btn-primary form-control">Volver atras</a>
+           
+        </div>
+    </div>
+</div>

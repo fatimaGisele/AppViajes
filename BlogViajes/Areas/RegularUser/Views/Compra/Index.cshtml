@@ -1,0 +1,45 @@
+﻿@model IEnumerable<BlogViajesModelo.Compra>
+@{
+    ViewData["Title"] = "Tus Paquetes Adquiridos";
+}
+<br />
+<br />
+<h2 class="text-center text-white bg-danger py-4">Tu Carrito</h2>
+@if (Model == null || !Model.Any())
+{
+    <div class="text-center alert alert-info">
+        <h4>Aun no tenes paquetes de viajes</h4>
+    </div>
+}
+else
+{
+    @foreach (var compra in Model)
+    {
+        <div class="container col-10 offset-2">
+            <div class="accordion border-warning mb-3 w-75">
+                <div class="accordion-item ">
+                    <h2 class="accordion-header" id="heading@compra.Id">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            @Html.Raw(compra.FechaCompra)
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Total: $@Html.Raw(compra.Total)</strong>
+                            @foreach (var d in compra.CompraDetalles)
+                            {
+                                <p class="text-center">Paquete: @d.PaqueteDeViaje.Nombre</p>
+                                <p class="text-center">Cantidad: @d.Cantidad</p>
+                                <p class="text-center">Referencia número: @d.PaqueteDeViajeId</p>
+                                <p class="text-center">PrecioUnitario:$ @d.PrecioUnitario</p>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+  
+}
+
+

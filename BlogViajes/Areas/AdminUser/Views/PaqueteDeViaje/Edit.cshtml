@@ -1,0 +1,87 @@
+﻿@model BlogViajesModelo.ViewModels.PaqueteDeViajeView;
+@{
+    ViewData["Title"] = "Editar un paquete de viaje";
+}
+
+<br />
+<br />
+<h3 class="text-center"> Editar un paquete de viaje</h3>
+
+<form method="POST" asp-action="Edit">
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+        <div class="col-10 offset-1 mt-4">
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Nombre"> </label>
+                </div>
+                <div>
+                    <input asp-for="Nombre" class="form-control" placeholder="Ingrese un titulo" />
+                    <span asp-validation-for="Nombre" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Tipo"> </label>
+                </div>
+                <div>
+                    <input asp-for="Tipo" class="form-control" placeholder="Ingrese el tipo de paquete" />
+                    <span asp-validation-for="Tipo" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Detalle"> </label>
+                </div>
+                <div>
+                    <input asp-for="Detalle" class="form-control" placeholder="Ingrese una descripcion" />
+                    <span asp-validation-for="Detalle" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Disponibilidad"> </label>
+                </div>
+                <div>
+                    <input asp-for="Disponibilidad" class="form-control" placeholder="Ingrese una descripcion" />
+                    <span asp-validation-for="Disponibilidad" class="text-danger"></span>
+                </div>
+            </div>
+
+            <h4>Destinos</h4>
+            <div id="destinos-container">
+                @for (int i = 0; i < Model.DestinosSeleccionados.Count; i++)
+                {
+                    <div class="row mb-2">
+                        <div class="col-md-6">
+                            <select asp-for="DestinosSeleccionados[@i].DestinoId" asp-items="Model.DestinosDisponibles" class="form-control destino-select">
+                                <option value="1">Seleccione un destino</option>
+                            </select>
+
+                        </div>
+                        <div class="col-md-4">
+                            <input asp-for="DestinosSeleccionados[@i].CantidadDias" class="form-control dias-input" placeholder="Cantidad de días" type="number" min="1" />
+                        </div>
+                    </div>
+                }
+            </div>
+
+
+
+            <div class="mt-3">
+                <input asp-for="Precio" class="form-control" readonly />
+            </div>
+            <br />
+            <br />
+            <div class="form-group row">
+                <div class="col-8">
+                    <partial name="_VistaEditar" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

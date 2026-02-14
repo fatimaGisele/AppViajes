@@ -1,0 +1,45 @@
+﻿@model BlogViajesModelo.OpcionesDePago
+@{
+    ViewData["Title"] = "Agregar una forma de pago";
+}
+
+<br />
+<br />
+<h3 class="text-center"> Agregar una nueva opcion de pago</h3>
+
+<form method="POST" asp-action="Create">
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Tipo">
+
+                    </label>
+                </div>
+                <div>
+                    <input asp-for="Tipo" class="form-control" placeholder="Ingrese nueva opcion de pago" />
+                    <span asp-validation-for="Tipo" class="text-danger"></span>
+                </div>
+                <div class="col-4">
+                    <label asp-for="Descripcion">
+
+                    </label>
+                </div>
+                <div>
+                    <input asp-for="Descripcion" class="form-control" placeholder="Ingrese descripcion de la nueva opcion" />
+                    <span asp-validation-for="Descripcion" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-8">
+                    <partial name="_VistaVolver" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+@section Scripts {
+    <script src="~/js/opcionesDePago.js"></script>
+}
+ 
